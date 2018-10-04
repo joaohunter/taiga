@@ -51,7 +51,7 @@ namespace taiga
         	this.textBox1.BackColor = System.Drawing.SystemColors.MenuText;
         	this.textBox1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
         	this.textBox1.ForeColor = System.Drawing.Color.Crimson;
-        	this.textBox1.Location = new System.Drawing.Point(10, 405);
+        	this.textBox1.Location = new System.Drawing.Point(10, 375);
         	this.textBox1.Multiline = true;
         	this.textBox1.Name = "textBox1";
         	this.textBox1.Size = new System.Drawing.Size(421, 33);
@@ -69,7 +69,7 @@ namespace taiga
         	this.textBox2.Name = "textBox2";
         	this.textBox2.ReadOnly = true;
         	this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-        	this.textBox2.Size = new System.Drawing.Size(421, 392);
+        	this.textBox2.Size = new System.Drawing.Size(421, 362);
         	this.textBox2.TabIndex = 4;
         	// 
         	// pictureBox1
@@ -77,7 +77,7 @@ namespace taiga
         	this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
         	this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
         	this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-        	this.pictureBox1.Location = new System.Drawing.Point(437, 0);
+        	this.pictureBox1.Location = new System.Drawing.Point(428, -32);
         	this.pictureBox1.Name = "pictureBox1";
         	this.pictureBox1.Size = new System.Drawing.Size(320, 600);
         	this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -89,7 +89,7 @@ namespace taiga
         	this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
         	this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
         	this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-        	this.pictureBox2.Location = new System.Drawing.Point(437, 405);
+        	this.pictureBox2.Location = new System.Drawing.Point(437, 375);
         	this.pictureBox2.Name = "pictureBox2";
         	this.pictureBox2.Size = new System.Drawing.Size(34, 33);
         	this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -157,7 +157,7 @@ namespace taiga
         	this.BackColor = System.Drawing.Color.Black;
         	this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
         	this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-        	this.ClientSize = new System.Drawing.Size(756, 450);
+        	this.ClientSize = new System.Drawing.Size(703, 418);
         	this.Controls.Add(this.label4);
         	this.Controls.Add(this.label3);
         	this.Controls.Add(this.label2);
